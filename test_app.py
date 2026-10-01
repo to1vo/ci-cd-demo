@@ -2,7 +2,7 @@ from app import add, describe_temperature
 
 
 def test_add() -> None:
-	assert add(2, 3) == 6
+	assert add(2, 3) == 5
 
 def test_temperature_boundaries() -> None:
 	assert describe_temperature(-1) == "freezing"

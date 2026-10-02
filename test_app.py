@@ -1,4 +1,4 @@
-from app import add, subtract, describe_temperature
+from app import add, describe_temperature, subtract
 
 
 def test_add() -> None:

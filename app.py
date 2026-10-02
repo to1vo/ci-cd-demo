@@ -1,5 +1,8 @@
 def add(a: float, b: float) -> float:
-	return a +b
+	return a+b
+
+def subtract(a: float, b: float) -> float:
+	return a-b
 
 def describe_temperature(celsius: float) -> str:
 	if celsius < 0:
@@ -9,4 +12,6 @@ def describe_temperature(celsius: float) -> str:
 	return "warm"
 
 if __name__ == "__main__":
+	print(add(2, 5))
+	print(subtract(6, 3))
 	print(describe_temperature(21))
